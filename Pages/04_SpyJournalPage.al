@@ -11,51 +11,51 @@ page 50084 SpyJournalPage
         {
             group(GroupName)
             {
-                field("Posting Date"; "Posting Date")
+                field("Posting Date"; Rec."Posting Date")
                 {
                     ApplicationArea = All;
                 }
-                field("Document No."; "Document No.")
+                field("Document No."; Rec."Document No.")
                 {
                     ApplicationArea = All;
                 }
-                field("External Document No."; "External Document No.")
+                field("External Document No."; Rec."External Document No.")
                 {
                     ApplicationArea = All;
                 }
-                field("Account No."; "Account No.")
+                field("Account No."; Rec."Account No.")
                 {
                     ApplicationArea = All;
                 }
-                field("Account Type"; "Account Type")
+                field("Account Type"; Rec."Account Type")
                 {
                     ApplicationArea = All;
                 }
-                field(Amount; Amount)
+                field(Amount; Rec.Amount)
                 {
                     ApplicationArea = All;
                 }
-                field("Currency Code"; "Currency Code")
+                field("Currency Code"; Rec."Currency Code")
                 {
                     ApplicationArea = All;
                 }
-                field("Amount (LCY)"; "Amount (LCY)")
+                field("Amount (LCY)"; Rec."Amount (LCY)")
                 {
                     ApplicationArea = All;
                 }
-                field("Document Type"; "Document Type")
+                field("Document Type"; Rec."Document Type")
                 {
                     ApplicationArea = All;
                 }
-                field(Description; Description)
+                field(Description; Rec.Description)
                 {
                     ApplicationArea = All;
                 }
-                field("Journal Template Name"; "Journal Template Name")
+                field("Journal Template Name"; Rec."Journal Template Name")
                 {
                     ApplicationArea = All;
                 }
-                field("Journal Batch Name"; "Journal Batch Name")
+                field("Journal Batch Name"; Rec."Journal Batch Name")
                 {
                     ApplicationArea = All;
                 }

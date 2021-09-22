@@ -12,33 +12,33 @@ page 50082 SpyListJournalBatches
         {
             repeater(General)
             {
-                field(Name; Name)
+                field(Name; Rec.Name)
                 {
                     ApplicationArea = All;
                     Caption = 'Name';
 
                 }
-                field("Journal Template Name"; "Journal Template Name")
+                field("Journal Template Name"; Rec."Journal Template Name")
                 {
                     ApplicationArea = All;
                     Caption = 'Journal Template Name';
                 }
-                field("Template Type"; "Template Type")
+                field("Template Type"; Rec."Template Type")
                 {
                     ApplicationArea = All;
                     Caption = 'Template Type';
                 }
-                Field(Description; Description)
+                Field(Description; Rec.Description)
                 {
                     ApplicationArea = All;
                     Caption = 'Description';
                 }
-                field("Allow VAT Difference"; "Allow VAT Difference")
+                field("Allow VAT Difference"; Rec."Allow VAT Difference")
                 {
                     ApplicationArea = All;
                     Caption = 'Allow VAT Difference';
                 }
-                field("Copy VAT Setup to Jnl. Lines"; "Copy VAT Setup to Jnl. Lines")
+                field("Copy VAT Setup to Jnl. Lines"; Rec."Copy VAT Setup to Jnl. Lines")
                 {
                     ApplicationArea = All;
                     Caption = 'Copy VAT Setup to Jnl. Lines';

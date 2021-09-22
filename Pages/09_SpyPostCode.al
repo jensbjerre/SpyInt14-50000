@@ -11,15 +11,15 @@ page 50089 SpyPostCode
         {
             group(GroupName)
             {
-                field(Code; Code)
+                field(Code; Rec.Code)
                 {
                     ApplicationArea = All;
                 }
-                field(City; City)
+                field(City; Rec.City)
                 {
                     ApplicationArea = All;
                 }
-                field("Country/Region Code"; "Country/Region Code")
+                field("Country/Region Code"; Rec."Country/Region Code")
                 {
                     ApplicationArea = All;
                 }

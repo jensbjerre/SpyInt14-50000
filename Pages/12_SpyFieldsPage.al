@@ -11,22 +11,22 @@ page 50092 SpyFieldsPage
         {
             group(GroupName)
             {
-                field(TableNo; TableNo)
+                field(TableNo; Rec.TableNo)
                 {
                     ApplicationArea = All;
 
                 }
-                field(TableName; TableName)
+                field(TableName; Rec.TableName)
                 {
                     ApplicationArea = All;
 
                 }
-                field(FieldNo; "No.")
+                field(FieldNo; Rec."No.")
                 {
                     ApplicationArea = All;
 
                 }
-                field(FieldName; FieldName)
+                field(FieldName; Rec.FieldName)
                 {
                     ApplicationArea = All;
 
